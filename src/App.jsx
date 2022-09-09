@@ -11,7 +11,7 @@ const App = () => {
 
   useEffect(() => {
     const getUser = () => {
-      fetch("http://localhost:5000/auth/login/success", {
+      fetch("https://techgeeks.up.railway.app/auth/login/success", {
         method: "GET",
         credentials: "include",
         headers: {
