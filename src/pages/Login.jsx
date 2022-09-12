@@ -4,15 +4,15 @@ import Github from "../img/github.png";
 
 const Login = () => {
   const google = () => {
-    window.open("https://techgeeks.up.railway.app/auth/google", "_self");
+    window.open("https://techgeeks.onrender.com/auth/google", "_self");
   };
 
   const github = () => {
-    window.open("https://techgeeks.up.railway.app/auth/github", "_self");
+    window.open("https://techgeeks.onrender.com/auth/github", "_self");
   };
 
   const facebook = () => {
-    window.open("https://techgeeks.up.railway.app/auth/facebook", "_self");
+    window.open("https://techgeeks.onrender.com/auth/facebook", "_self");
   };
 
   return (

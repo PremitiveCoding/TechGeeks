@@ -11,7 +11,7 @@ const App = () => {
 
   useEffect(() => {
     const getUser = () => {
-      fetch("https://techgeeks.up.railway.app/auth/login/success", {
+      fetch("https://techgeeks.onrender.com/auth/login/success", {
         method: "GET",
         credentials: "include",
         headers: {

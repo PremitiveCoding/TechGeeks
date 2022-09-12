@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = ({ user }) => {
   const logout = () => {
-    window.open("https://techgeeks.up.railway.app/auth/logout", "_self");
+    window.open("https://techgeeks.onrender.com/auth/logout", "_self");
   };
   return (
     <div className="navbar">
